@@ -12,4 +12,11 @@ Requesting and receiving Data using RabbitMQ server:
 - open up cmd line and run RPC.py so it can start receiving messages
 - Would recommend following this guide to setup client to send and receive messages https://www.rabbitmq.com/tutorials/tutorial-six-python.html
 
+UML Sequence Diagram:
+
+- C is the client
+- S is the server
+- C request data from S
+- S replies to C
+
 ![plot](./UML.png)
